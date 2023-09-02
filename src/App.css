@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+ 
+  .Form {
+    margin-bottom: 20px;
+    margin-left: 10rem;
+  }
+  
+  .Buttons {
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+  
+  .Buttons:hover {
+    background-color: #5b945b;
+    
+  }
+
+  label {
+    margin-right: 3px;
+    font-size: 1.5rem;
+  }
+
+  input {
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 2rem;
+  }
+  
+  p {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+  }
